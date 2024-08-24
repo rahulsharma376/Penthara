@@ -1,0 +1,54 @@
+.boxes{
+    display: block;
+}
+
+.box1, .box2{
+    display: flex;
+}
+
+
+.bxs{
+    background-color: blue;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    height: 200px;
+    width: 400px;
+    margin: 10px 10px 0 0;
+    color: aliceblue;
+    font-size: large;
+}
+.bx{
+    height: 410px;
+}
+
+@media only screen and (max-device-width: 580px) 
+{
+    .boxes{
+        display: block;
+        flex-direction: column;
+    }
+    .box1, .box2{
+        display: flex;
+        flex-direction: column;
+        margin-right: 10px;
+    }
+
+    .bx{
+        height: 200px;
+    }
+
+    .box1{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    
+    .box12{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    
+}
+

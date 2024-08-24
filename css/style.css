@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css?family=Metrophobic:100,200,300,400,500,600,700,800,900|Source+Sans+Pro:100,200,300,400,500,600,700,800,900');
+
+html{
+    font-size: 16px;
+    color: rgb(255,255,255);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.navbar{
+    /* position: fixed; */
+    background: rgb(53, 20, 84);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 30px;
+}
+
+.navbar img{
+    max-width: 150px;   
+}
+
+.navbar div ul{
+    display: flex;
+}
+
+.navbar div ul li{
+    list-style: none;
+    padding: 0px 20px;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.navbar div ul li a{
+    color:rgb(255,255,255);
+    text-decoration: none;
+}
+
+.divhero{
+    background-image: url('https://www.penthara.com/wp-content/uploads/2024/01/PowerAppspngtowebp.webp');
+    max-height: 1000px;
+}
+
+.hero_fir{
+    font-size: 4.5rem;
+    font-weight: 650;
+    padding: 0 120px;
+    text-align: center;
+    padding-top: 40px;
+}
+
+.hero_sec{
+    display: flex;
+    padding: 60px 50px;
+}
+
+
+.hero_box{
+    background-color: rgba(240, 248, 255, 0.1);
+    text-align: left;
+    height: 310px;
+    width: 800px;
+    padding: 20px;
+    /* border: 0px solid #3d3b3e; */
+}
+
+
+.hero_box h4, .hero_box p, .hero_box button{
+    margin: 10px 0;
+}
+
+.hero_box span{
+    border-top: 5px solid rgb(255,255,255) ;
+    padding-left: 400px;
+}
+.hero_box h4{
+    font-size: 2rem;
+}
+
+.hero_box p{
+    line-height: 3;
+    font-size: 1.1rem;
+}
+
+.hero_box button{
+    background-color: transparent;
+    border: none;
+    font-size: 1.2rem;
+    color: rgb(255,255,255);
+}
+
+/* Enterprises start */
+
+.Enterprises{
+    color: black;
+    /* display: flex; */
+    align-items: center;
+    font-weight: 400;
+    overflow: hidden;
+    padding: 100px 32px 32px 32px;
+}
+
+.Ent_div{
+    display: flex;
+    padding: 0 200px;
+    gap: 60px;
+    text-align: left; 
+}
+
+.Ent_div h3{
+    font-size: 2.1rem;
+    font-weight: 500;
+    line-height: 1.2;
+    margin-bottom: 25px ;
+    opacity: 0.8;
+}
+
+.Ent_div p{
+    opacity: 0.8;
+}
+
+/* Services Start */
+
+.Services{
+    padding: 100px 32px 32px 32px;
+    align-items: center;
+}
+
+
+.serv_text{
+    color: black;
+    text-align: center;
+}
+
+.serv_text h2{
+    font-size: 2.8rem;
+    font-weight: 400;
+}
+
+.serv_text p{
+    font-size: 1rem;
+    padding: 0 400px ;
+}
+
+.serv_box{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    padding: 30px 200px;
+}
+
+.serv_box div{
+    border: 1px transparent rgb(123, 116, 116);
+    height: 250px;
+    padding:10px;
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+.serv_box div:hover{
+    box-shadow: 8px 8px 8px 8px rgba(68, 64, 64, 0.5);
+    border-radius: 10px;
+    color: rgb(229, 103, 191);;
+}
+.serv_box div img{
+    max-width: 100%;
+    height: 180px;
+    border-radius: 10px;
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-bottom: 20px;
+}
+
+.serv_box div a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.serv_box div a:hover{
+    color: rgb(229, 103, 191);
+}
+
+.serv_box1 button{
+    border: none;
+    background-color: rgb(207,8,115);
+    border-radius: 25px;
+    color:aliceblue;
+    font-size: 1.2rem;
+    width: 200px;
+    height: 50px;
+}
+.serv_box1{
+    text-align: center;
+}
+
+/* Certificate Section */
+.cert {
+    background-color: rgb(60,12,67);
+    text-align: center;
+    padding: 100px 32px;
+}
+
+.cert h3{
+    font-size: 2.8rem;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.cert p{
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 400;
+    margin-bottom: 50px;
+}
+
+.cert-img{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
